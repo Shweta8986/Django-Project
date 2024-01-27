@@ -1,0 +1,17 @@
+body {
+  background-color: brown;
+  text-align:center;
+ }
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+
+  form {
+    text-align:center;
+  }

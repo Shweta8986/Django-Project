@@ -1,0 +1,15 @@
+{% extends 'base.html' %} 
+{% load static %}
+<head>
+  <link rel="stylesheet" href="{% static 'all_members.css' %}"></head>
+{% block body %}
+
+<h1>Members</h1>
+<p> Find the all members name</p> 
+<ul>
+  {% for x in member_list %}
+    <li><a href="detail/{{ x.id }}">{{ x.firstname }} </a></li>
+  {% endfor %}
+</ul>
+
+{% endblock %}
